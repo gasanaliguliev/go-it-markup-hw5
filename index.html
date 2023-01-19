@@ -35,7 +35,7 @@
                 <section class="section__business">
                     <div class="container">
                         <h1 class="section__header">Effective Solutions for Your Business</h1>
-                        <button class="button primary" type="button">Order Service</button>
+                        <button class="button primary" type="button" data-modal-open>Order Service</button>
                     </div>
             </section>
             </div>
@@ -306,9 +306,9 @@
     </div>
     </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close">X</button>
+            <button type="button" class="modal-close" data-modal-close>X</button>
         </div>
     </div>
     <script src="./js/modal.js"></script>
